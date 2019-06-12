@@ -18,112 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koka García</title>
 
-    <style type="text/css">
-        .div-imagen {
-            /*display: inline-block;
-            position: relative;*/
-            background: url('img/inicioPrueba.jpg') no-repeat center center fixed;
-            background-size: cover;
-            width: 100%;
-            height: 600px;
-        }
-
-        /*.div-imagen > div {
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: 500;
-                padding: 0;
-                margin: 0;
-                height:inherit;
-        }*/
-
-        /*.desvanecer:hover {
-            opacity: 0.7;
-            -webkit-transition: opacity 500ms;
-            -moz-transition: opacity 500ms;
-            -o-transition: opacity 500ms;
-            -ms-transition: opacity 500ms;
-            transition: opacity 500ms;
-            z-index: 500;
-        }*/
-
-        /* Center the loader */
-        #loader {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            z-index: 1;
-            width: 150px;
-            height: 150px;
-            margin: -75px 0 0 -75px;
-            border: 16px solid #f3f3f3;
-            border-radius: 50%;
-            border-top: 16px solid black;
-            width: 120px;
-            height: 120px;
-            -webkit-animation: spin 2s linear infinite;
-            animation: spin 2s linear infinite;
-        }
-
-        @-webkit-keyframes spin {
-            0% {
-                -webkit-transform: rotate(0deg);
-            }
-
-            100% {
-                -webkit-transform: rotate(360deg);
-            }
-        }
-
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
-            }
-
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-
-        /* Add animation to "page content" */
-        .animate-bottom {
-            position: relative;
-            -webkit-animation-name: animatebottom;
-            -webkit-animation-duration: 1s;
-            animation-name: animatebottom;
-            animation-duration: 1s
-        }
-
-        @-webkit-keyframes animatebottom {
-            from {
-                bottom: -100px;
-                opacity: 0
-            }
-
-            to {
-                bottom: 0px;
-                opacity: 1
-            }
-        }
-
-        @keyframes animatebottom {
-            from {
-                bottom: -100px;
-                opacity: 0
-            }
-
-            to {
-                bottom: 0;
-                opacity: 1
-            }
-        }
-
-        #myDiv {
-            display: none;
-            text-align: center;
-        }
-    </style>
+ 
 
     <script type="text/javascript">
         var myVar;
@@ -134,7 +29,7 @@
 
         function showPage() {
             document.getElementById("loader").style.display = "none";
-            document.getElementById("myDiv").style.display = "block";
+            document.getElementById("myDivLanding").style.display = "block";
         }
     </script>
 
@@ -150,7 +45,7 @@
         </div>
 
 
-        <div style="display:none;" id="myDiv" class="animate-bottom">
+        <div style="display:none;" id="myDivLanding" class="animate-bottom">
             <div class="row">
                 <div class="col-sm-12 revelando">
                     <div id="uno">
@@ -174,15 +69,14 @@
             </div>-->
                 <div class="col-sm-12">
                     <div class="div-imagen">
-                        <div style="background:rgba(57,57,57,.8);width:50%; height:100%; padding:20px">
-                            <div style="padding-top:30%; padding-bottom:30%; width:inherit">
-                                <div style="color:yellow">
+                        <div class="divPadreBio">
+                            <div class="divHijoBio">
+                                <div class="tituloBioLanding">
                                     <h1>ACERCA DE</h1>
                                 </div>
-                                <div style="color:white;">
+                                <div class="cortoBioLanding">
                                     <p>atleta guatemalteco, jugador de volleyball, entrenador personal, etc etc. atleta
-                                        guatemalteco, jugador de volleyball, entrenador personal, etc etc atleta
-                                        guatemalteco, jugador de volleyball, entrenador personal, etc etc</p>
+                                        guatemalteco, jugador de volleyball, entrenador personal</p>
                                 </div>
                                 <div>
                                     <a href="#" style="background-color:white"><img src="img/masInfobtn.png" /></a>
