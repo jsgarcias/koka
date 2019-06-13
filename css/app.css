@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 .revelando {
     text-align: center;
-    background: #525250;
+    background: #BB0000;
     color: #FFFFFF;
     font-family: 'Roboto';
     font-weight: 300;
@@ -45,7 +45,7 @@ font-size: 120%;
     margin-left: -355px;
     animation: slidein 7s infinite;
     font-family: 'Marvel', sans-serif;
-    color: #DDDD49!important;
+    color: ##FFFFFF!important;
 }
 
 @keyframes showup {
@@ -221,7 +221,7 @@ font-size: 120%;
 
 .tituloBioLanding
 {
-	color:#DDDD49;
+	color:#BB0000;
 	font-family: 'Aclonica', sans-serif;
 }
 
