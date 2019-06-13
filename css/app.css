@@ -208,7 +208,7 @@ font-size: 120%;
 	width:50%;
 	height:100%;
 	padding:20px;
-	text-align:left
+	text-align:justify
 }
 
 .divHijoBio
@@ -222,7 +222,8 @@ font-size: 120%;
 .tituloBioLanding
 {
 	color:#BB0000;
-	font-family: 'Aclonica', sans-serif;
+	font-family: 'Marvel', sans-serif;
+    font-size:5%;
 }
 
 .cortoBioLanding
@@ -230,6 +231,7 @@ font-size: 120%;
 	
 	color:#FFFFFF;
 	font-family: 'Marvel', sans-serif;
+    
 }
 
 .contenidoSinMargen
